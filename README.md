@@ -1,7 +1,8 @@
 # NayePankh Management System (Java + JDBC + MySQL)
 ## 📖 Project Overview
-NayePankh Management System is a Java-based desktop application designed to manage user login and volunteer registration using Java Swing (or AWT) for UI and MySQL database for backend storage. The project uses JDBC for database connectivity.
----
+
+NayePankh Management System is a Java-based desktop application developed using Java Swing and JDBC with MySQL as the backend. It enables user authentication, volunteer management, donation management, and report generation through an intuitive graphical interface.
+
 ## 🚀 Features
 - User Login System
 - Volunteer Registration Form
@@ -14,7 +15,7 @@ NayePankh Management System is a Java-based desktop application designed to mana
 - Java Swing / AWT (for UI)
 - JDBC (Java Database Connectivity)
 - MySQL Database
-- VS Code / Eclipse (IDE)
+- VSCode (IDE)
 ---
 ## 📁 Project Structure
 ```text
@@ -56,10 +57,10 @@ NayePankhFoundationSystem/
 - Add `.jar` file inside `lib/` folder
 - Configure classpath in VS Code or IDE
 ---
+
 ### 3. Configure Database
 - Change password and username in DBConnection file or whervever required
 - Create database in MySQL:
-
 ```sql:
 CREATE DATABASE nayepankh_db;
 USE nayepankh_db;
@@ -91,6 +92,9 @@ CREATE TABLE donations (
     donation_date DATE
 );
 ```
+## 🎬 Demo
+
+This is a desktop Java application. Please clone the repository and follow the setup instructions to run it locally.
 ## 📸 Screenshots
 
 ### Login Page
@@ -110,3 +114,9 @@ CREATE TABLE donations (
 
 ### Reports
 <img width="2560" height="1440" alt="Screenshot (594)" src="https://github.com/user-attachments/assets/d3ad4263-1a5e-4bfc-8bda-f5467c2e6c88" />
+
+## 👨‍💻 Author
+
+**Abhijeet Singh Dhir**
+
+- GitHub: https://github.com/abhijeetsinghdhir07
